@@ -18,6 +18,9 @@
 ### [5.Statistical inference](#statistical-inference)
 
 ### [6.Statistical Modeling](#statistical-modeling)
+---
+---
+---
 
 ### Data Science [^](#index)
 Data science is an interdisciplinary field that combines techniques from mathematics, statistics, computer science, and domain-specific knowledge to extract meaningful insights and knowledge from structured and unstructured data. It involves processes like data collection, cleaning, analysis, visualization, and interpretation to support decision-making and predictions.
