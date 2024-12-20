@@ -191,11 +191,9 @@ f(z) = \frac{1}{1 + e^{-z}}
 $$
 
 Here:
-- \( f(z) \): The logistic function's output, which represents a probability value between 0 and 1.
-- \( z \): The linear combination of input features and their coefficients, expressed as:
-  $$
-  z = \beta_0 + \beta_1x_1 + \beta_2x_2 + \ldots + \beta_nx_n
-  $$
+- f(z): The logistic function's output, which represents a probability value between 0 and 1.
+- z: The linear combination of input features and their coefficients, expressed as:
+  z = β₀ + β₁x₁ + β₂x₂ + ... + βₙxₙ
   where:
   - β₀: The intercept (bias term).
   - β₁, β₂, ..., βₙ: Coefficients for the input features.
