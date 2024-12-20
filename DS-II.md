@@ -3,6 +3,9 @@
 ### [2.Data Science Process](#data-science-process)
 ### [3.Linear regression](#linear-regression)
 ### [4.KNN](#k-nearest-neighbors)
+### [5.K-Means](#k-means)
+### [6.SVM](#support-vector-machinesvm)
+### [7.logistic regression](#logistic-regression)
 
 ### Exploratory data analysis (EDA) [^](#index)
 Exploratory data analysis (EDA) is used by data scientists to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods.
@@ -26,6 +29,8 @@ Data scientists can use exploratory analysis to ensure the results they produce 
 **Multivariate graphical:** Multivariate data uses graphics to display relationships between two or more sets of data. The most used graphic is a grouped bar plot or bar chart with each group representing one level of one of the variables and each bar within a group representing the levels of the other variable.
 
 Most common data science programming languages/Tools used to create an EDA include: `Python`, `R`
+
+---
 
 ### Data Science process [^](#index)
 
@@ -77,7 +82,7 @@ The data science process is often iterative, with steps being revisited as neede
 
 ---
 
-### Linear Regression
+### Linear Regression [^](#index)
 Linear regression is a data analysis technique that predicts the value of unknown data by using another related and known data value. The variable you want to predict is called the dependent variable. The variable you are using to predict the other variable's value is called the independent variable.
 
 
@@ -107,5 +112,94 @@ At its core, a simple linear regression technique attempts to plot a line graph 
 ---
 
 
-### k-Nearest Neighbors
+### [k-Nearest Neighbors](https://www.ibm.com/think/topics/knn) [^](#index)
+
 The k-nearest neighbors (KNN) algorithm is a non-parametric, supervised learning classifier, which uses proximity to make classifications or predictions about the grouping of an individual data point. It is one of the popular and simplest classification and regression classifiers used in machine learning today.
+While the KNN algorithm can be used for either regression or classification problems, it is typically used as a classification algorithm
+
+**Uses** : handwriting detection, image recognition, and video recognition
+
+---
+
+### [k-means](#https://www.ibm.com/think/topics/k-means-clustering) [^](#index)
+K-means is a clustering algorithm that partitions data into groups based on the distance between their centroids
+
+**How it works** 
+K-means is an iterative algorithm that starts by choosing the number of clusters, k, and then defines a centroid for each cluster. The algorithm then assigns each observation to the cluster with the nearest centroid.
+
+**used for** 
+K-means is a type of unsupervised learning algorithm that's used to solve clustering problems. It's also known as Lloyd's algorithm.
+
+**How to measure distance** 
+The distance between data points is used to determine how similar they are. A shorter distance means the observations are more similar. One way to measure distance is Euclidean distance, which is the same distance used in the Pythagorean theorem. 
+
+**Stopping criteria**
+The algorithm stops when the centroids of new clusters don't change, the points remain in the same cluster, or the maximum number of iterations is reached.
+
+---
+
+### [Support Vector Machine(SVM)](#https://www.ibm.com/think/topics/support-vector-machine) [^](#index)
+A support vector machine (SVM) is a supervised machine learning algorithm that classifies data by finding the best hyperplane to separate data points into different classes: 
+SVMs are used in many fields, including bioinformatics, because they: Can handle large datasets with many predictor values, Can learn complex models, Are less likely to overfit than other algorithms, and Have high learning ability. 
+
+**How they work** 
+SVMs plot data points in an n-dimensional space, where n is the number of features. They then find the hyperplane that maximizes the distance between classes, while ignoring outliers.  
+
+**History** 
+SVMs were developed in the 1990s by Vladimir N. Vapnik and his colleagues.   
+
+**Support Vector Classifier** 
+SVC is a specific implementation of the SVM algorithm that's designed for classification tasks.  
+
+**Kernels** 
+Kernels help transform data points to make them more separable when linear separation isn't possible.   
+
+**Overfitting** 
+Overfitting is when a model performs well on training data but can't generalize to new data. SVMs are less likely to overfit than other algorithms.  
+
+---
+
+### [Navie Bayes](https://www.ibm.com/think/topics/naive-bayes) [^](#index)
+Naïve Bayes is a supervised machine learning algorithm that uses probability to classify events. It's based on Bayes' theorem and is a type of probabilistic classifier that assumes that features are independent of each other.
+Here are some characteristics of Naïve Bayes: 
+
+**Simplicity** 
+Naïve Bayes is one of the simplest Bayesian network models. It's known for being fast, simple, and accurate.
+
+**Applications** 
+Naïve Bayes is used for a variety of tasks, including text classification, spam filtering, recommendation systems, and multi-class prediction. 
+
+**Advantages** 
+Naïve Bayes works well on large datasets and performs well on both binary and multi-class classification.
+
+**Disadvantages** 
+One disadvantage of Naïve Bayes is the "zero-frequency problem". This occurs when there are no occurrences of a class label and a certain attribute value together, which results in a zero probability estimate.  
+
+---
+### [logistic regression](#https://aws.amazon.com/what-is/logistic-regression/) [^](#index)
+Logistic regression is a data analysis technique that uses mathematics to find the relationships between two data factors.
+It then uses this relationship to predict the value of one of those factors based on the other. The prediction usually has a finite number of outcomes, like yes or no.
+
+Logistic regression is a supervised learning algorithm that uses a logistic function to predict the probability of a target variable based on one or more predictor variables. 
+
+logistic function is a mathematical function used to model the relationship between input variables (features) and the probability of a binary outcome. It is also known as the **sigmoid function** because of its S-shaped curve.
+
+### Formula of the Logistic Function:
+
+$$
+f(z) = \frac{1}{1 + e^{-z}}
+$$
+
+Here:
+- \( f(z) \): The logistic function's output, which represents a probability value between 0 and 1.
+- \( z \): The linear combination of input features and their coefficients, expressed as:
+  $$
+  z = \beta_0 + \beta_1x_1 + \beta_2x_2 + \ldots + \beta_nx_n
+  $$
+  where:
+  - β₀: The intercept (bias term).
+  - β₁, β₂, ..., βₙ: Coefficients for the input features.
+  - x₁, x₂, ..., xₙ: Input features.
+
+It's used for binary classification problems, like predicting whether a person will buy a house or not based on their age, income, and other factors.
+It's widely used in applications such as customer churn prediction, credit risk assessment, and medical diagnosis. It's also used for feature selection and engineering.
