@@ -30,23 +30,18 @@ There are various websites that provide tools and services to test password stre
 Here is a list of websites commonly used for password cracking or testing password strength. 
 
 1. **Have I Been Pwned**  
-   Website: [https://haveibeenpwned.com](https://haveibeenpwned.com)  
    Allows you to check if your email or password has been involved in a data breach.
 
-2. **CrackStation**  
-   Website: [https://crackstation.net](https://crackstation.net)  
+2. **CrackStation** 
    A website that helps crack hashed passwords using precomputed hash tables.
 
 3. **HashKiller**  
-   Website: [https://hashkiller.co.uk](https://hashkiller.co.uk)  
    A platform that allows users to crack MD5, SHA1, and SHA256 hashes.
 
 4. **OnlineHashCrack**  
-   Website: [https://www.onlinehashcrack.com](https://www.onlinehashcrack.com)  
    Offers paid services for cracking hashes and testing passwords against known datasets.
 
 5. **Passware**  
-   Website: [https://www.passware.com](https://www.passware.com)  
    Provides password recovery services and software tools for cracking encrypted files and passwords.
 
 These websites use techniques such as brute-force, dictionary, and rainbow table attacks to attempt cracking passwords. Always ensure you're authorized to use these services to test systems.
@@ -59,7 +54,7 @@ Password guessing involves trying different combinations of passwords until the 
 - **Brute Force**: Trying every possible combination until success.
 - **Dictionary Attack**: Using a precompiled list of common passwords.
 - **Hybrid Attack**: Combining both brute force and dictionary attacks.
-- **Rainbow Tables**: Using a precompiled list of common passwords.
+- **Rainbow Tables**:  uses precomputed tables of hash values to quickly reverse-engineer plaintext passwords from their hashed counterparts.
 
 Attackers often use automated tools to speed up this process.
 
@@ -72,6 +67,7 @@ Here are some commonly used password cracking tools:
 - **Hashcat**: Known for its speed and advanced capabilities in cracking hashed passwords.
 - **Cain and Abel**: A Windows-based tool for password recovery.
 - **Hydra**: A network login cracker that supports various protocols.
+- **OphCrack** : OphCrack is a free rainbow table-based password cracking tool for Windows.
 
 ---
 
@@ -96,7 +92,7 @@ Attackers often use exploits, such as buffer overflows or misconfigured systems,
 
 ---
 
-## Keyloggers
+## [Keyloggers](https://binaryit.com.au/types-of-keyloggers-and-examples/)
 
 ### Definition
 
@@ -120,7 +116,7 @@ A **keylogger** is a type of malware that records the keystrokes made on a compu
 
 ---
 
-## Spyware
+## [Spyware](https://safernetvpn.com/the-5-most-notorious-spyware-attacks/)
 
 ### Definition
 

@@ -23,7 +23,7 @@ Understanding programming languages like **C**, **HTML**, and **Perl** is essent
    - **Memory Management**: Learning C gives insights into memory management and how improper handling can lead to security issues like memory corruption.
 
 2. **HTML**:
-   - **Web Application Security**: HTML is essential for understanding web applications. By knowing HTML, security professionals can identify and mitigate web-related attacks like **Cross-Site Scripting (XSS)** and **Cross-Site Request Forgery (CSRF)**.
+   - **Web Application Security**: HTML is essential for understanding web applications. By knowing HTML, security professionals can identify and mitigate web-related attacks like <abbr title="XSS allows an attacker to execute JavaScript in a victim's browser"> **Cross-Site Scripting (XSS)** </abbr> and <abbr title="CSRF tricks the victim into performing actions they didn't intend"> **Cross-Site Request Forgery (CSRF)**. </abbr>
 
 3. **Perl**:
    - **Scripting for Automation**: Perl is useful for automating tasks like penetration testing, scanning networks, and analyzing logs. It helps security professionals write scripts to test and exploit vulnerabilities.
