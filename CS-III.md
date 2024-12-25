@@ -165,7 +165,7 @@ Developing and implementing security policies and procedures is essential to def
 
 Hacker attacks are malicious actions carried out to exploit vulnerabilities in systems, networks, or applications. These attacks can vary in methods and objectives, but they all aim to gain unauthorized access to data, disrupt services, or damage infrastructure. Below are some common types of hacker attacks:
 
-### 1. [**Phishing**](#https://www.fortinet.com/resources/cyberglossary/types-of-phishing-attacks)
+### 1. [**Phishing**](https://www.fortinet.com/resources/cyberglossary/types-of-phishing-attacks)
 Phishing is a social engineering attack where hackers impersonate legitimate entities (such as banks, government agencies, or companies) to trick individuals into revealing sensitive information like usernames, passwords, or credit card numbers. Phishing is typically carried out through fake emails, websites, or phone calls.
 
 #### Types of Phishing:
@@ -173,7 +173,7 @@ Phishing is a social engineering attack where hackers impersonate legitimate ent
 - **Spear Phishing**: A more targeted form of phishing aimed at specific individuals or organizations, often involving highly personalized content.
 - **Whaling**: A type of spear phishing targeting high-level executives or influential individuals in an organization.
 
-### 2. [**Malware**](#https://www.fortinet.com/resources/cyberglossary/malware)
+### 2. [**Malware**](https://www.fortinet.com/resources/cyberglossary/malware)
 Malware refers to malicious software specifically designed to harm or exploit systems. It can spread through infected files, email attachments, or compromised websites.
 
 #### Types of Malware:
@@ -183,20 +183,20 @@ Malware refers to malicious software specifically designed to harm or exploit sy
 - **Ransomware**: A type of malware that locks or encrypts the victim's data and demands payment for the decryption key.
 - **Spyware**: Software that secretly monitors and collects user activity or sensitive data, often without the user's consent.
 
-### 3. [**Denial-of-Service (DoS) Attack**](#https://www.fortinet.com/resources/cyberglossary/dos-vs-ddos)
+### 3. [**Denial-of-Service (DoS) Attack**](https://www.fortinet.com/resources/cyberglossary/dos-vs-ddos)
 A Denial-of-Service attack aims to disrupt the availability of a system or network by overwhelming it with a massive amount of traffic. The target becomes unable to respond to legitimate user requests.
 
 - **DoS Attack**: An attack where a single computer is used to flood the target with traffic, making it unresponsive.
 - **Distributed Denial-of-Service (DDoS) Attack**: A more severe form where multiple systems (often compromised devices in a botnet) are used to launch a coordinated attack, making it harder to defend against.
 
-### 4. [**Man-in-the-Middle (MitM) Attack**](#https://www.fortinet.com/resources/cyberglossary/man-in-the-middle-attack)
+### 4. [**Man-in-the-Middle (MitM) Attack**](https://www.fortinet.com/resources/cyberglossary/man-in-the-middle-attack)
 In a Man-in-the-Middle attack, the attacker intercepts and potentially alters communication between two parties without their knowledge. This can lead to data theft, eavesdropping, or unauthorized access to sensitive information.
 
 #### Common MitM Techniques:
 - **Packet Sniffing**: Intercepting unencrypted network traffic to steal sensitive data, such as passwords.
 - **Session Hijacking**: Taking over a user's active session on a website to gain unauthorized access to their account.
 
-### 5. [**SQL Injection**](#https://www.cloudflare.com/learning/security/threats/sql-injection/)
+### 5. [**SQL Injection**](https://www.cloudflare.com/learning/security/threats/sql-injection/)
 SQL Injection occurs when a hacker exploits vulnerabilities in a web application's database query execution. By injecting malicious SQL code into input fields (such as search bars or login forms), attackers can gain unauthorized access to the database, manipulate data, or even delete records.
 
 ### 6. **Cross-Site Scripting (XSS)**
@@ -206,7 +206,7 @@ XSS attacks occur when an attacker injects malicious scripts into a website or w
 - **Reflected XSS**: Malicious script is immediately executed when a user visits a compromised link.
 - **Stored XSS**: Malicious script is stored on the server and executed when a user visits the affected page.
 
-### 7. [**Brute Force Attack**](#https://www.fortinet.com/resources/cyberglossary/brute-force-attack)
+### 7. [**Brute Force Attack**](https://www.fortinet.com/resources/cyberglossary/brute-force-attack)
 A brute force attack involves trying all possible combinations of passwords or encryption keys until the correct one is found. It is time-consuming but effective, especially for weak or common passwords.
 
 - **Password Cracking**: Using brute force to guess a user’s password by testing all possible combinations.
@@ -411,7 +411,7 @@ Footprinting can be broadly divided into two categories: **passive footprinting*
 
 There are several tools that help security professionals and ethical hackers perform footprinting more efficiently. These tools automate various tasks such as DNS queries, port scanning, and OS fingerprinting.
 
-#### [1. **WHOIS Tools**:](#https://www.ibm.com/docs/en/aix/7.1?topic=w-whois-command)
+#### [1. **WHOIS Tools**:](https://www.ibm.com/docs/en/aix/7.1?topic=w-whois-command)
    - **WHOIS**: This tool helps gather domain registration information, including contact details and domain registration records.
    - **Examples**: 
      - `whois` command in Linux.
