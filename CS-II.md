@@ -107,3 +107,31 @@ Addresses unauthorized access, hacking, and other computer-related offenses.
 
 ---
 
+### IT Act 2000
+Informational Technology Act of 2000, is the primary legislation in India dealing with cybercrime and electronic commerce.
+It was formulated to ensure the lawful conduct of digital transactions and the reduction of cyber crimes, on the basis of the United Nations Model Law on Electronic Commerce 1996 (UNCITRAL Model). 
+This legal framework comes with 94 sections, divided into 13 chapters and 2 schedules. 
+
+The bill of this law was passed in the Budget by a group of Parliament members, headed by the then Minister of Information Technology and signed by the President on 9 May 2000. It finally came into effect on October 17, imposing restrictions on all individuals regardless of their nationality and geographic location. 
+
+#### Importance of IT Act 2000
+- The Act provides legal recognition to electronic records, resulting in the growth of e-commerce and digital transactions in India. 
+- It has established electronic signatures as the legal equivalent of physical signatures. 
+- The formulation of this act has come up with the establishment of the Controller of Certifying Authorities (CCA), a government body that is responsible for issuing and maintaining the security of digital signatures as well as certificates.
+- Through the Act, the Government of India can criminalise cybercrime, hacking and spreading of computer viruses. 
+- The Information Technology Act is associated with CERT-In (Indian Computer Emergency Response Team), a nodal agency that is responsible for cybersecurity and cyber incident response. 
+- There have been 2 amendments associated with this Act, addressing the technological advancements, implementability concerns and anomalies.
+
+| **Section**   | **Offence**                                                               | **Penalty**                                                                      |
+|---------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| Section 65    | Tampering documents stored within a computer system                      | Imprisonment of 3 years or a fine of Rs. 2 lakhs or both                         |
+| Section 66    | Offences associated with computers or any act outlined in Section 43     | Imprisonment of 3 years or a fine that extends to Rs. 5 lakhs or both            |
+| Section 66B   | Dishonestly receiving a stolen computer source or device                 | Imprisonment for 3 years or a fine of Rs. 1 lakh or both                         |
+| Section 66C   | Identity theft                                                           | Imprisonment of 3 years or a fine of Rs. 1 lakh or both                          |
+| Section 66D   | Cheating by personation                                                  | Either imprisonment for 3 years or a fine of Rs. 1 lakh or both                  |
+| Section 66E   | Invading privacy                                                        | Either imprisonment up to 3 years or a fine of Rs. 2 lakhs or both               |
+| Section 66F   | Cyber terrorism                                                          | Life imprisonment                                                                |
+| Section 67    | Sending explicit or obscene material in electronic form                 | Imprisonment of 5 years and a fine of Rs. 10 lakhs                               |
+| Section 67A   | Sending material containing sexually explicit acts through electronic means | Imprisonment of 7 years and a fine of Rs. 10 lakhs                               |
+| Section 67B   | Depicting children in sexually explicit form and sharing such material through electronic mode | Imprisonment of 7 years and a fine of Rs. 10 lakhs                               |
+| Section 67C   | Failure to preserve and retain the information by intermediaries         | Imprisonment for 3 years and a fine                                              |

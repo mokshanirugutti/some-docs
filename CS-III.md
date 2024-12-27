@@ -1,16 +1,17 @@
 ### index 
 ## [1. Intro to Hacking](#introduction-to-hacking)
 ## [2. Importance of Security](#importance-of-security)
-## [3. Types of Cyber Attakcs](#types-of-cyber-attakcs)
-## [4. Hacktivism](#hacktivism)
-## [5. Vulnerability Research](#vulnerability-research)
-## [6. FootPrinting](#introduction-to-footprinting-)
-## [7. Info gathering methods](#information-gathering-methodologies)
-## [8. FootPrinting Tools](#footprinting-tools)
-## [9. WhoIs](#1-whois-tools)
-## [10. DNS Information Tools](#2-dns-tools)
-## [11. Locating Network Range](#locating-network-range)
-## [12. MetaSearch Engine](#meta-search-engine)
+## [3. Phases Of Attack]()
+## [4. Types of Cyber Attakcs](#types-of-cyber-attakcs)
+## [5. Hacktivism](#hacktivism)
+## [6. Vulnerability Research](#vulnerability-research)
+## [7. FootPrinting](#introduction-to-footprinting-)
+## [8. Info gathering methods](#information-gathering-methodologies)
+## [9. FootPrinting Tools](#footprinting-tools)
+## [10. WhoIs](#1-whois-tools)
+## [11. DNS Information Tools](#2-dns-tools)
+## [12. Locating Network Range](#locating-network-range)
+## [13. MetaSearch Engine](#meta-search-engine)
 
 ---
 
@@ -143,6 +144,14 @@ Developing and implementing security policies and procedures is essential to def
 - **Incident Response Policy**: Outlines the steps to take in the event of a security breach.
 
 ---
+
+### Phases of Attack [^](#index)
+- Reconnaissance
+- Enumeration/Scanning
+- Gaining Access
+- Privilege Escalation
+- Covering Tracks
+- Reporting
 
 ### Types of Cyber Attakcs [^](#index)
 
