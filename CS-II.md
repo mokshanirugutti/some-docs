@@ -1,5 +1,6 @@
 ## [1. Private ordering solutions](#private-ordering-solutions)
 ## [2. Regulations and Jurisdictions](#regulations-and-jurisdictions-for-global-cybersecurity)
+## [3. IT Act](#it-act-2000)
 
 ---
 
